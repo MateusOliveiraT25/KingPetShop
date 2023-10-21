@@ -3,7 +3,7 @@
     <header>
       <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
         <div class="container-fluid">
-          <img src="IMG/" logo width="40vh">
+          <img src="/img" logo width="40vh">
           <router-link to="/" class="navbar-brand">Home</router-link>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -77,7 +77,7 @@
     </div>
   </div>
   <footer>
-    <router-link to="/sobre" class="linkmenu">Quem Somos</router-link>
+  <router-link to="/sobre" class="linkmenu">Quem Somos</router-link>
 <router-link to="/termos" class="linkmenu">Termos e Políticas</router-link>
 <router-link to="/etica" class="linkmenu">Ética e Conduta</router-link>
 <router-link to="/contato" class="linkmenu">
