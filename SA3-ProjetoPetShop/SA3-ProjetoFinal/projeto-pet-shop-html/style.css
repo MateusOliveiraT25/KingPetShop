@@ -1,0 +1,269 @@
+#bodyIndex{
+    background:  rgb(193, 238, 209);
+}
+/* styles.css */
+body {
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: white;
+    padding: 20px;
+    background-color: rgb(248, 242, 242);
+    margin: 0;
+}
+
+footer {
+    background-color: rgba(56, 52, 52, 0.967); /* Define a cor de fundo do rodapé */
+    padding: 10px;
+    text-align: center;
+    flex-direction: column;
+    bottom: 0;
+    width: 100%;
+}
+#bodyContato{
+    background:  rgb(240, 240, 244);
+}
+/* styles.css */
+body {
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+}
+.content {
+    flex: 1;
+}
+h1 {
+    color: white;
+    padding: 20px;
+    background-color: rgb(248, 242, 242);
+    margin: 0;
+}
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.info-group {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.info-box {
+    width: 200px;
+    padding: 20px;
+    border: 1px solid #fdfdfd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(250, 249, 249, 0.778);
+}
+
+.info-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.info-content {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px#ccc;
+    color: #ffffff;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+
+.form-label {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-submit {
+    background-color: hsl(123, 77%, 36%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.carousel-button {
+    background-color: #f8fefd;
+    color: rgb(20, 1, 4);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .carousel-button.prev {
+    float: left;
+  }
+  
+  .carousel-button.next {
+    float: right;
+  }
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}#status-pedido {
+
+    font-size: 20px;
+    
+    background: #ccc;
+    
+    color: #fff;
+    
+    padding: 30px;
+    
+    width: 100%;
+    
+    }
+    
+    @media screen and (min-width: 30em) {
+    
+    .w-70 {
+    
+    width: 70%;
+    
+    }
+    
+    }
+    
+    #bloco-confirma {
+    
+    border-radius: .5rem;
+    
+    background: #e8fdf5;
+    
+    padding: 2rem;
+    
+    border: 1px solid #19a974;
+    
+    }
+/* Estilo para os links do menu no footer */
+.linkmenu {
+    color: #333; /* Cor do texto */
+    text-decoration: none; /* Remover sublinhado */
+    padding: 5px 10px; /* Espaçamento interno */
+    margin: 0 10px; /* Espaçamento externo */
+    border-radius: 3px; /* Borda arredondada */
+    transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+}
+
+.linkmenu:hover {
+    background-color: #f0f0f0; /* Cor de fundo ao passar o mouse */
+    color: #555; /* Cor do texto ao passar o mouse */
+}
+
+/* Estilo para a imagem no link do menu no footer */
+.linkmenu img {
+    width: 20px; /* Largura da imagem */
+    height: 20px; /* Altura da imagem */
+    margin-right: 5px; /* Espaçamento à direita da imagem */
+    vertical-align: middle; /* Alinhar verticalmente com o texto */
+}
+/* Estilo para a barra de navegação */
+.navbar {
+    background-color: #100101; /* Cor de fundo da barra */
+    padding: 10px 0; /* Espaçamento interno vertical */
+}
+
+/* Estilo para os itens do menu na barra de navegação */
+.navbar-nav .nav-item {
+    margin-right: 15px; /* Espaçamento entre os itens */
+}
+
+/* Estilo para os links do menu na barra de navegação */
+.navbar-nav .nav-link {
+    color: #fff; /* Cor do texto */
+    text-decoration: none; /* Remover sublinhado */
+    transition: color 0.3s ease; /* Transição suave da cor do texto */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f0f0f0; /* Cor do texto ao passar o mouse */
+}
+
+/* Estilo para o ícone do carrinho */
+.nav2-item .nav-link img {
+    width: 20px; /* Largura da imagem */
+    height: 20px; /* Altura da imagem */
+    margin-right: 5px; /* Espaçamento à direita da imagem */
+    vertical-align: middle; /* Alinhar verticalmente com o texto */
+}
+
+/* Estilo para o campo de busca na barra de navegação */
+.navbar form {
+    margin-left: auto; /* Alinhar à direita */
+}
+
+.navbar form input {
+    padding: 5px 10px; /* Espaçamento interno */
+    border: none; /* Remover borda */
+    border-radius: 3px; /* Borda arredondada */
+}
+
+.navbar form button {
+    background-color: #fff; /* Cor de fundo do botão */
+    color: #333; /* Cor do texto do botão */
+    border: none; /* Remover borda */
+    border-radius: 3px; /* Borda arredondada */
+    margin-left: 5px; /* Espaçamento à esquerda do botão */
+    cursor: pointer; /* Cursor de mão ao passar o mouse */
+}
+
+
+
+    .linkmenu {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+    .linkmenu:hover {
+        text-decoration: underline;
+    }
